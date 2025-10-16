@@ -1,10 +1,12 @@
-{
+a{
   "name": "bytexl-exam-api",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
+g   "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test:syntax": "node -e \"require('./api/books/index.js');require('./api/books/[id].js');require('./api/subscriptions/index.js');require('./api/subscriptions/[userId].js');require('./api/borrow.js');require('./api/return.js');require('./api/users/[userId]/history.js');console.log('OK')\""
   }
 }
-
