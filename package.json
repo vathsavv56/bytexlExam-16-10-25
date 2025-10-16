@@ -1,9 +1,10 @@
-a{
+{
   "name": "bytexl-exam-api",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-g   "engines": {
+
+  "engines": {
     "node": ">=20"
   },
   "scripts": {
