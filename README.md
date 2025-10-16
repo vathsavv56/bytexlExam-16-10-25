@@ -1,5 +1,4 @@
-# Library API (Vercel-ready)
-
+# Library API
 Endpoints
 
 - GET /api/books
